@@ -34,6 +34,7 @@ if (!isset($_SESSION["username"])) {
 
     ?>
     <div class="content">
+        <h1>Hi, <?php echo $_SESSION['username']?></h1>
         
 
     </div>
